@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contactform</title>
+</head>
+<body>
+    <h1>Contact Us!</h1>    
+<div class="container">
+  <form  method ="get" action="action_page.php">
+
+    <label for="fname"><h3> First Name</h3> </label>
+    <input type="text" id="fname" name="firstname" placeholder="Your firstname"><br>
+
+    <label for="lname"><h3>Last Name</h3></label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name"><br>
+    
+    <label for="email"><h3>Email</h3></label>
+    <input type="text" id="email" name="email" placeholder="Enter your email address"><br>
+
+
+    <label for="Phonenumber"><h3>Phone number</h3></label>
+
+    <input type="integer" id="phno" name="Phonenumber" placeholder="Enter your Phone number" style="height: 30px;"><br><br>
+
+    <label for="subject"><h3>Subject</h3></label>
+    <input type="text" id="subject" name="subject" placeholder="Write the subject"><br>
+
+    <label for="Message"><h3>Message</h3></label>
+    <textarea id="Message" name="Message" placeholder="Write something...."  style="height: 250px;"></textarea><br>
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+</body>
+</html>

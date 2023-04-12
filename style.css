@@ -1,0 +1,47 @@
+h1{
+    text-align: center;
+    font-size: 55px;
+}
+
+input[type=text], select, textarea {
+    width: 75%; 
+    padding: 15px;
+    border: 1px solid #ccc; 
+    border-radius: 0px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical ;
+    font: weight 300px;
+    font-size: medium;
+  }
+  
+  
+  input[type=submit] {
+    background-color: #163ce2;
+    color: rgb(219, 197, 197);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+ 
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    background-color: #f2f2f2;
+    padding: 25px;
+    opacity: 0.65;
+}
+body{
+    background-image:url(https://dev.infiniticreation.co.uk/wp-content/uploads/2018/06/background-kupi-contact-form.png) ;
+    background-size: cover;
+    font-size: larger;
+    font-style: inherit;
+}
